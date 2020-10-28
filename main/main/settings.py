@@ -38,7 +38,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'carchain.apps.CarChainConfig', # activate the new app
-    'carchain.apps.CarChainConfig',
     'rest_framework'
 ]
 
