@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '&##qe6okzsu1s*sk36f1+y#9sia1eu%h8e!$$mnal&r@lh%5lz'
+SECRET_KEY = 'z3s&)e*wftrfaa80lkl&@o+j2%gsi*h61wtxk(n#l9i5mttoz$'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'carchain.apps.CarChainConfig', # activate the new app
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
